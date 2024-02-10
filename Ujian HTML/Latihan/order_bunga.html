@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pesan bunga</title>
+  </head>
+  <body>
+    <h1>Pesan Bunga</h1>
+
+    <form>
+      <label for="nama">
+        <b>Nama:</b>
+      </label>
+      <br />
+      <input type="text" name="nama" id="nama" />
+      <br /><br />
+
+      <label for="jb">
+        <b>Jenis Bunga:</b>
+      </label>
+      <br />
+      <select name="list_bunga" id="jb">
+        <option>Bunga 1</option>
+        <option>Bunga 2</option>
+        <option>Bunga 3</option>
+        <option>Bunga 4</option>
+        <option>Bunga 5</option>
+      </select>
+
+      <br /><br />
+
+      <label for="jp">
+        <b>Jenis Pembayaran:</b>
+      </label>
+      <br />
+      <input type="radio" name="jp" id="tunai" />
+      <label for="tunai">Tunai</label>
+      <input type="radio" name="jp" id="transfer" />
+      <label for="transfer">Transfer</label>
+
+      <br /><br />
+
+      <label for="ap">
+        <b>Alamat Pengiriman:</b>
+      </label>
+      <br />
+      <textarea id="ap"></textarea>
+
+      <br /><br />
+
+      <label for="angga">
+        <b>Waktu Pengiriman:</b>
+      </label>
+      <br />
+
+      <input type="checkbox" id="pg">
+      <label for="pg">Pagi</label>
+      
+      <input type="checkbox" id="sg">
+      <label for="sg">Siang</label>
+
+      <input type="checkbox" id="sr">
+      <label for="sr">Sore</label>
+
+      <input type="checkbox" id="ml">
+      <label for="ml">Malam</label>
+
+            <br /><br />
+            
+            
+            <input type="submit" value="Pesan">
+            <input type="reset" value="Hapus">
+            
+            <br /><br />
+
+            <hr>
+
+            <a href="list_bunga.html">Lihat daftar bunga</a>
+            <br>
+            <a href="index.html">Kembali ke Home</a>
+
+    </form>
+  </body>
+</html>
