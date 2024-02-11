@@ -44,4 +44,4 @@ pada kode diatas terdapat atribut href di dalam tag pembuka `<a>`. Atribut href 
 Isi atau konten tag tersebut, yang terletak di antara tag pembuka `<a>` dan tag penutup `</a>`, adalah teks **"Akun Instagram Gue"**. Dengan kata lain, saat tautan ini diintegrasikan ke dalam halaman HTML, pengguna akan melihat sebuah tautan yang bertuliskan **"Akun Instagram Gue"** dan dapat mengkliknya untuk menuju ke akun Instagram yang terkait. Isi tag memiliki peran penting dalam menentukan apa yang akan muncul sebagai tautan di halaman web, dan dalam hal ini, kontennya mengindikasikan bahwa tautan tersebut mengarahkan ke akun Instagram pribadi
 
 **Hasil Output** :
-![]('../assets/output-href.png')
+![](../assets/output-href.png)
